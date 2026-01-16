@@ -14,3 +14,13 @@ config/name="Tuturial Game"
 run/main_scene="uid://qc2kou08o6ti"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "purple"
+}
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
