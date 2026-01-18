@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://qc2kou08o6ti"]
+[gd_scene load_steps=16 format=3 uid="uid://qc2kou08o6ti"]
 
 [ext_resource type="Script" uid="uid://dspw84u4jq0pn" path="res://scripts/game_manager.gd" id="1_gee14"]
 [ext_resource type="PackedScene" uid="uid://ohhffrdtk0x2" path="res://scenes/Player.tscn" id="1_uwrxv"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cldmlqwo012wj" path="res://scenes/killzone.tscn" id="5_iywne"]
 [ext_resource type="PackedScene" uid="uid://dg1otmr38n530" path="res://scenes/enemy_green.tscn" id="6_p57ef"]
 [ext_resource type="FontFile" uid="uid://b2x3s4b46ukpx" path="res://assets/fonts/PixelOperator8.ttf" id="7_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://bv5te40juxmg0" path="res://scenes/music.tscn" id="9_0tnpc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -347,3 +348,5 @@ theme_override_colors/font_color = Color(0.011764706, 0.14901961, 0.34901962, 1)
 theme_override_fonts/font = ExtResource("7_u5sy4")
 theme_override_font_sizes/font_size = 8
 text = "No Touchy!!"
+
+[node name="Music" parent="." instance=ExtResource("9_0tnpc")]
